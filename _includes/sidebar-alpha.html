@@ -1,0 +1,20 @@
+<nav class="side-pane">
+  <ul class="side-pane__menu sticky">
+    <li class="side-pane__dropdown {% if page.url == "/alpha/" %}unfolded active{% endif %}">
+      <a class="side-pane__link" href="/alpha/#presentation">La formation Alpha</a>
+      <ul class="side-pane__submenu">
+        <li>
+          <a class="side-pane__sublink" href="/alpha/#inscription">Inscriptions</a>
+        </li>
+      </ul>
+    </li>
+    <li class="side-pane__dropdown {% if page.url contains "/alpha/mooc/" %}unfolded active{% endif %}">
+      <a class="side-pane__link" href="/alpha/#presentation">La formation Alpha</a>
+      <ul class="side-pane__submenu">
+        <li>
+          <a class="side-pane__sublink" href="/alpha/#inscription">Inscriptions</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
