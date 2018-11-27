@@ -54,3 +54,27 @@ blockquote {
 .side-pane li.unfolded.side-pane__dropdown:hover .side-pane__link {
   background-image: url("/assets/images/icons/external/arrow-down-white.svg");
 }
+
+/* Styles pour les iframes de vidéos */
+
+.mooc-iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mooc-iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.mooc-iframe-container-4x3 {
+  padding-top: 75%;
+}

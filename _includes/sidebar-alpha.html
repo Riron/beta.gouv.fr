@@ -9,13 +9,14 @@
       </ul>
     </li>
     <li class="side-pane__dropdown {% if page.url contains "/alpha/mooc/" %}unfolded active{% endif %}">
-      <a class="side-pane__link" href="/alpha/#presentation">Formation en ligne ouverte à tous</a>
+      <a class="side-pane__link" href="/alpha/mooc/">Formation en ligne ouverte à tous</a>
       <ul class="side-pane__submenu">
+        {% assign mooc = site.mooc | sort: 'order' %}
+        {% for sequence in mooc %}
         <li>
-          <a class="side-pane__sublink" href="/alpha/#inscription">Sequence X</a>
-          <a class="side-pane__sublink" href="/alpha/#inscription">Sequence X</a>
-          <a class="side-pane__sublink" href="/alpha/#inscription">Sequence X</a>
+          <a class="side-pane__sublink" href="{{ sequence.url }}">{{ sequence.label }}</a>
         </li>
+        {% endfor %}
       </ul>
     </li>
   </ul>
