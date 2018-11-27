@@ -13,7 +13,7 @@
       <ul class="side-pane__submenu">
         {% assign mooc = site.mooc | sort: 'order' %}
         {% for sequence in mooc %}
-        <li>
+        <li {% if page.url == sequence.url %}class="active"{% endif %}>
           <a class="side-pane__sublink" href="{{ sequence.url }}">{{ sequence.label }}</a>
         </li>
         {% endfor %}

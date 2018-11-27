@@ -51,7 +51,7 @@ collections:
     permalink: /recrutement/:year/:month/:day/:title.html
   mooc:
     output: true
-    permalink: /alpha/mooc/title.html
+    permalink: /alpha/mooc/:title.html
   phases:
   startups:
     output: true

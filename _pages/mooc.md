@@ -6,8 +6,12 @@ additional_css:
   - side-panel.css
 ---
 
-<div class="mooc-iframe-container">
-  <iframe src="https://www.dailymotion.com/embed/video/x6xkiku" allowfullscreen allow="autoplay" class="videomooc"></iframe>
+## Découvrez comment créer des services publics innovants
+
+<div class="mooc-iframe-center">
+  <div class="mooc-iframe-container">
+    <iframe src="https://www.dailymotion.com/embed/video/x6xkiku" allowfullscreen></iframe>
+  </div>
 </div>
 
-TEXTE EXPLICATIF
+TEXTE DE PRESENTATION

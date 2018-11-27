@@ -57,24 +57,37 @@ blockquote {
 
 /* Styles pour les iframes de vidéos */
 
-.mooc-iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
+.mooc-iframe-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.mooc-iframe-container iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+@media (max-width: 749px) {
+  .mooc-iframe-center {
+    width: 100%
+  }
 }
 
-.mooc-iframe-container-4x3 {
-  padding-top: 75%;
+@media (min-width: 750px) {
+  .mooc-iframe-center {
+    width: 75%
+  }
+}
+
+.mooc-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.mooc-iframe-container iframe, .mooc-iframe-container object, .mooc-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px;
 }
