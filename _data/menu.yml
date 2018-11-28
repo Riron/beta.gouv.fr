@@ -12,7 +12,7 @@ nav:
   target: _pages/communaute.md
 -
   label: Formation
-  target: _pages/alpha.md
+  target: _pages/formation/alpha.md
 -
   label: À propos
   target: _pages/about.md

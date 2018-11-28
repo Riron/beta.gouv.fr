@@ -1,5 +1,5 @@
 ---
-layout: alpha
+layout: formation/alpha
 title: La formation Alpha
 permalink: /alpha/
 additional_css:

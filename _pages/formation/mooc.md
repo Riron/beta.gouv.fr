@@ -1,5 +1,5 @@
 ---
-layout: mooc
+layout: formation/mooc
 title: Formation en ligne ouverte à tous
 permalink: /alpha/mooc/
 additional_css:

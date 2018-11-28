@@ -78,7 +78,7 @@ defaults:
       path: ""
       type: "mooc"
     values:
-      layout: mooc
+      layout: formation/mooc
       additional_css:
         - side-panel.css
   - scope:
